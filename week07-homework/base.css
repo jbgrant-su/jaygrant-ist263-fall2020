@@ -9,7 +9,7 @@ nav ul {
 #search-btn {width: 3em; height: 3em; background-color: #ccc; float: right; padding: 0 1em; text-align: center;}
 #search-btn i {padding: 30% 0;}
 #top-panel {margin: 1em 1.5em 1em 1em;}
-#top-banner {background:url(images/W7-lab-banner-background.png) no-repeat; height: 320px; width: 715px;}
+#top-banner {background:url(W7-lab-banner-background.png) no-repeat; height: 320px; width: 715px;}
 #banner-heading {background-color: #fff; margin-left:2em; margin-top: 4em; width: 30%; padding: 0.5em; display: inline-block;}
 #banner-list {padding: 1em;}
 #page-center {margin: 0 2em 0 0;}
