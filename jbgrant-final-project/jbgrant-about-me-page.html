@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="jaygrant.css">
+        <script src="https://kit.fontawesome.com/e716c59009.js" crossorigin="anonymous"></script>
+        <style>
+          /* .row {display: flex; flex-wrap: wrap; padding: 0 4px;}
+            .col {flex: 50%; padding: 0 4px;}
+            .col img {
+                margin-top: 8px;
+                vertical-align: middle;
+                float: left;
+            }
+            .col-2 {
+                flex: 50%; padding: 0 4px; width: 40%;
+            }
+            .col-2 img {
+                margin-top: 8px;
+                vertical-align: middle;
+                float: right;
+            }
+            .col-3 {position: fixed; flex:2; margin: 0 auto; float: right; transform: translate(10,0)}*/
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+                width: 80em;
+
+            }
+           /* .left {
+                flex: 50%;
+                float: left;
+                margin-right: 60%;}*/
+            .left img {
+                float: left;
+                padding-right: 6em;
+            }
+            .left {
+                text-align: justify;
+                vertical-align: middle;
+                padding-bottom: 6em;
+                padding-top: 6em;
+            }
+            /*.right {
+                flex: 50%;
+                float: right;
+                margin-left: 60%;}*/
+            .right img {
+                float: right;
+                padding-left: 6em;
+            }
+            .right {
+                text-align: justify;
+            }
+            .right h2 {
+                text-align: right;
+            }
+            h1 {
+                width: 100%
+            }
+           /* .col-l {
+                width: 10em;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 10%;
+                color: #2c2c2c;
+                overflow-x: hidden;
+                padding-top: 20px;
+                font-size: 24px;
+                text-align: left;
+                margin-top: 165px;
+                border-style: solid;
+                border-color: #e0e0e0;
+
+
+
+            }*/
+            .bar {
+                width: 10em;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                right: 0;
+                color: #2c2c2c;
+                overflow-x: hidden;
+                padding: 1em;
+                font-size: 24px;
+                text-align: left;
+                margin-top: 165px;
+                background-color: #2c2c2c;
+                color: #e0e0e0;
+                height: 157%;
+            }
+            h3 {
+                background-color: #2c2c2c;
+            }
+            ul {
+                background-color: #2c2c2c;
+            }
+            li {
+                background-color: #2c2c2c;
+            }
+
+           /*  h3 {
+                background-color: #2c2c2c;
+            }
+            ul {
+                background-color: #2c2c2c;
+            }
+            li {
+                background-color: #2c2c2c;
+            }*/
+            /*.col-3 {position: fixed; flex:2; margin: 0 auto; float: right; transform: translate(10,0)}*/
+        </style>
+    </head>
+    <body>
+        <header>
+            <!--<nav>
+            <a  href="jbgrant-homepage.html"><i class="fas fa-home"></i>Jay Grant</a>
+            </nav>-->
+            
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-bars" id="bars"></i></button>
+                    <div class="dropdown-content">
+                        <a href="jbgrant-homepage.html">Home</a>
+                        <a href="jbgrant-films-page.html">Films</a>
+                        <a href="jbgrant-photos-page.html">Photos</a>
+                        <a href="jbgrant-about-me-page.html">About Me</a>
+                    </div>
+            </div>
+            <h1>About Me</h1>
+        </header>
+        <main class="mid">
+            <div class="row">
+                <div class="left">
+                    <img src="images/jay-water-tower.jpg" alt="Jay Grant Sitting" width=750>
+                    <h2 class="lg">Bio</h2>
+                    <p>My name is Jay Grant, and I'm a Television, Radio, and Film student in the SI Newhouse School of Public Communications at Syracuse University, with a minor in Information Management and Technology. I grew up near Burlington, Vermont. I've had a passion for filmmaking since I was young, and began shooting movies with my friends from the time I was in elementary school. I began to take it seriously when I took my first movie production class as a freshman in high school. Ever since then I've been learning as much as I can about the filmmaking process, and creating as much as I can along the way.</p><br>
+                </div>
+                <div class="right">
+                    <img src="images/apple-picking.jpg" alt="Jay Grant Apple Picking" width=750>
+                    <h2 class="lg">Focuses</h2>
+                    <p>While I've dabbled in all elements of the filmmaking process, my primary focuses are cinematography and directing. I also enjoy screenwriting and post production. I've never had any formal training in photography, but I've been able to get by with transferring my cinematography skills, as well as learning on the fly and practicing a hell of a lot. My formal training includes directing, cinematography, color grading, and 4K workflow.</p><br>
+                </div>
+                <div class="left">
+                    <img src="images/jay-snow.jpg" alt="Jay Grant in the Snow" width=750>
+                    <h2 class="lg">Style</h2>
+                    <p>I don't know that I necessarily have a signature style yet, and my preferences are constantly changing, but most of my work can be distinguished by having low saturation, muted color tones, low contrast, unconventional framing, an abundance of complimentary colors, and an emphasis on visuals and sound design as opposed to dialogue. While these have remained relatively consistant throughout my body of work, I anticipate that they will change over time. I also generally have at least one typo that gets overlooked in my credit sequences. They started out as accidents, but I'm leaning into the skid so now they're little easter eggs.</p><br>
+                </div>  
+            </div>
+        </main>
+        <aside class="bar">
+            <h3>Software</h3>
+            <ul>
+                <li>Adobe Premiere</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Lightroom</li>
+                <li>Adobe After Effects</li>
+                <li>Adobe Audition</li>
+                <li>DaVinci Resolve</li>
+            </ul>
+            <h3>Equipment</h3>
+            <ul>
+                <li>Panasonic GH4</li>
+                <li>Canon Rebel Series</li>
+                <li>Canon C100</li>
+                <li>Canon C300</li>
+            </ul>
+        </aside>
+        <footer class=center>Copyright by Jay Grant</footer>
+    </body>
+</html>
